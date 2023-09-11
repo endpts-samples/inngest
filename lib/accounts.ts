@@ -20,6 +20,4 @@ export async function sendVerificationEmail(email: string, token: string) {
   console.log(`Account verification email sent:`);
   console.log(`  To: ${email}`);
   console.log(`  Token: ${token}`);
-
-  return;
 }
