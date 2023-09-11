@@ -20,7 +20,7 @@ Install the dependencies and start the endpts dev server which will serve our AP
 npm install && npm run dev
 ```
 
-With the API dev server running, we can now start the inngest dev server which will allow us to view, test, and debug your background jobs:
+With the API dev server running, we can now start the inngest dev server which will allow us to view, test, and debug oour background jobs:
 
 ```bash
 npx inngest-cli@latest dev --no-discovery -u http://localhost:3000/api/inngest
